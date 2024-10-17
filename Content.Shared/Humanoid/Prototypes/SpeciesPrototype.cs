@@ -76,6 +76,12 @@ public sealed partial class SpeciesPrototype : IPrototype
     public EntProtoId DollPrototype { get; private set; }
 
     /// <summary>
+    /// Allow Custom Specie Name for this Specie.
+    /// </summary>
+    [DataField]
+    public Boolean CustomName { get; private set; } = false;
+
+    /// <summary>
     /// Method of skin coloration used by the species.
     /// </summary>
     [DataField(required: true)]
@@ -180,4 +186,5 @@ public enum SpeciesNaming : byte
     //End of Nyano - Summary: for Oni naming
     TheFirstofLast,
     FirstDashLast,
+    LastFirst, // DeltaV
 }
