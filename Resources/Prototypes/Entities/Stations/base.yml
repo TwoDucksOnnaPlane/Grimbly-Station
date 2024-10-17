@@ -141,7 +141,7 @@
   abstract: true
   components:
   - type: SiliconLawProvider
-    laws: Asimov
+    laws: Crewsimov
 
 - type: entity
   id: BaseStationNews
