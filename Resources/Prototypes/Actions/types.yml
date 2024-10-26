@@ -171,7 +171,7 @@
       state: icon
     event: !type:UseDnaScramblerImplantEvent
 
-#grambles change
+#Grimbly - grambles change
 - type: entity
   id: ActionMorphGeras
   name: Morph into Geras
@@ -182,22 +182,6 @@
   - type: InstantAction
     itemIconStyle: BigAction
     useDelay: 15 # prevents mega spam
-    priority: -20
-    icon:
-      sprite: Mobs/Aliens/slimes.rsi
-      state: blue_adult_slime
-    event: !type:MorphIntoGeras
-
-
-- type: entity
-  id: ActionMorphGeras
-  name: Morph into Geras
-  description:  Morphs you into a Geras - a miniature version of you which allows you to move fast, at the cost of your inventory.
-  noSpawn: true
-  components:
-  - type: InstantAction
-    itemIconStyle: BigAction
-    useDelay: 10 # prevent spam
     priority: -20
     icon:
       sprite: Mobs/Aliens/slimes.rsi
