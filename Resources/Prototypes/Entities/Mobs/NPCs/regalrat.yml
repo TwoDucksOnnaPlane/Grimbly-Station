@@ -50,11 +50,11 @@
   - type: Strippable
   - type: UserInterface
     interfaces:
-    - key: enum.StrippingUiKey.Key
-      type: StrippableBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
   - type: Puller
     needsHands: false
-  - type: IdExaminable
+  - type: IdExaminable # End grimbly ratking changes
   - type: MobState
   - type: MobThresholds
     thresholds:
