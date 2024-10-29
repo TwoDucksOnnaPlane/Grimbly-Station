@@ -361,8 +361,8 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.2
-  - type: TemperatureProtection
-    Coefficient: 0.001
+  - type: FireProtection #Grimbly
+    reduction: 0.8 # atmos firesuit offers best protection, hardsuits are a little vulnerable
   - type: Armor
     modifiers:
       coefficients:
