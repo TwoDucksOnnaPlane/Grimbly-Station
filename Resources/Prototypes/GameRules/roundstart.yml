@@ -239,6 +239,7 @@
   noSpawn: true
   components:
   - type: RampingStationEventScheduler
+    shiftLengthModifier: 2.5 #testing
 
 - type: entity
   id: HellshiftStationEventScheduler
