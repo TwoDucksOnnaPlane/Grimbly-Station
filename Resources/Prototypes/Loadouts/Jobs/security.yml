@@ -843,7 +843,7 @@
   items:
     - MagazineMagnumRubber
 
-    - type: loadout
+- type: loadout
   id: LoadoutMagazineMagnumSpare
   category: JobsSecurity
   cost: 2
