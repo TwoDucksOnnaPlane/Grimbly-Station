@@ -9,10 +9,19 @@
 #  whitelistRequired: true
   icon: "JobIconPrisoner"
   supervisors: job-supervisors-security
-#  requirements:
+  requirements:
 #    - !type:DepartmentTimeRequirement
 #      department: Security
 #      min: 21600
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
+        - !type:CharacterTraitRequirement
+          traits:
+            - ShadowkinBlackeye
 
 - type: startingGear
   id: PrisonerGear

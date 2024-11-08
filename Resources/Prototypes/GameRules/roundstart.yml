@@ -236,7 +236,6 @@
 - type: entity
   id: RampingStationEventScheduler
   parent: BaseGameRule
-
   noSpawn: true
   components:
   - type: RampingStationEventScheduler
