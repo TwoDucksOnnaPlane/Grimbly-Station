@@ -22,16 +22,16 @@
   components:
     - type: SelfAware
       analyzableTypes:
-      - Blunt
-      - Slash
-      - Piercing
-      - Heat
-      - Shock
-      - Cold
-      - Caustic
+        - Blunt
+        - Slash
+        - Piercing
+        - Heat
+        - Shock
+        - Cold
+        - Caustic
       detectableGroups:
-      - Airloss
-      - Toxin
+        - Airloss
+        - Toxin
 
 - type: trait
   id: HeavyweightDrunk
@@ -97,17 +97,6 @@
       inverted: true
       species:
         - Felinid
-
-- type: trait
-  id: SignLanguage
-  category: Visual
-  points: -2
-  components:
-    - type: LanguageKnowledgeModifier
-      speaks:
-        - Sign
-      understands:
-        - Sign
 
 - type: trait
   id: Voracious
@@ -197,6 +186,12 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -232,6 +227,12 @@
       inverted: true
       traits:
         - LatentPsychic
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
 
 - type: trait
   id: NaturalTelepath
@@ -263,6 +264,12 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
 
 - type: trait
   id: TrapAvoider
@@ -270,6 +277,12 @@
   points: -3
   components:
     - type: StepTriggerImmune
+      whitelist:
+        types:
+          - Shard
+          - Landmine
+          - Mousetrap
+          - SlipEntity
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
@@ -287,3 +300,10 @@
     - !type:CharacterSpeciesRequirement
       species:
         - IPC
+
+- type: trait
+  id: AnimalFriend
+  category: Mental
+  points: -4
+  addFactions:
+    - AnimalFriend

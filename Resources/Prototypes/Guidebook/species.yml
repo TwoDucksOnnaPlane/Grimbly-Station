@@ -11,6 +11,9 @@
     - Reptilian
     - SlimePerson
     - IPCs
+    - Rodentia
+    - Harpy
+    - Shadowkin
 
 - type: guideEntry
   id: Arachnid
@@ -51,3 +54,19 @@
   id: IPCs
   name: species-name-ipc
   text: "/ServerInfo/Guidebook/Mobs/IPCs.xml"
+
+- type: guideEntry
+  id: Rodentia
+  name: species-name-rodentia
+  text: "/ServerInfo/Guidebook/Mobs/DeltaV/Rodentia.xml"
+
+- type: guideEntry
+  id: Harpy
+  name: species-name-harpy
+  text: "/ServerInfo/Guidebook/Mobs/Harpy.xml"
+  
+- type: guideEntry
+  id: Shadowkin
+  name: species-name-shadowkin
+  text: "/ServerInfo/Guidebook/Mobs/Shadowkin.xml"
+
