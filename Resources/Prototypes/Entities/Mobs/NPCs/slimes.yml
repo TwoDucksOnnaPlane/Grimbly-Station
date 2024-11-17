@@ -150,7 +150,7 @@
   name: geras
   description: A geras of a slime - the name is ironic, isn't it?
   id: MobSlimesGeras
-  parent: MobAdultSlimes
+  parent: BaseMobAdultSlimes
   categories: [ HideSpawnMenu ]
   components:
   # fast..

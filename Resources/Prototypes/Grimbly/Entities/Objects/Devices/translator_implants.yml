@@ -3,7 +3,7 @@
   id: RatstozkanTranslatorImplant
   name: Ratstozkan translator implant
   description: An implant that lets you bring glory to Ratstozka!
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: TranslatorImplant
     understood:
