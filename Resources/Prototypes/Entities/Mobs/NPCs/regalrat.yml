@@ -143,6 +143,11 @@
     - TauCetiBasic
     - Mouse
     - Ratstozkan # Grimbly
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
 
 - type: entity
   id: MobRatKingBuff
@@ -221,7 +226,11 @@
     - map: [ "enum.DamageStateVisualLayers.BaseUnshaded"]
       state: eyes
       shader: unshaded
-
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
   - type: SpriteMovement
     movementLayers:
       movement:

@@ -25,10 +25,6 @@
     jumpsuit: ClothingUniformJumpsuitCaptain
     back: ClothingBackpackCaptainFilled
     shoes: ClothingShoesBootsLaceup
-    head: ClothingHeadHatCaptain
-    eyes: ClothingEyesGlassesSunglasses
-    gloves: ClothingHandsGlovesCaptain
-    outerClothing: ClothingOuterArmorCaptainCarapace
     id: CaptainPDA
     ears: ClothingHeadsetAltCommand
   innerClothingSkirt: ClothingUniformJumpskirtCaptain
