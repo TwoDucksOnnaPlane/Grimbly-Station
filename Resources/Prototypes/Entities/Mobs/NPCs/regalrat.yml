@@ -48,10 +48,6 @@
     templateId: ratking
   - type: InventorySlots
   - type: Strippable
-  - type: UserInterface
-    interfaces:
-      enum.StrippingUiKey.Key:
-        type: StrippableBoundUserInterface
   - type: Puller
     needsHands: false
   - type: IdExaminable # End grimbly ratking changes
@@ -143,6 +139,11 @@
     - TauCetiBasic
     - Mouse
     - Ratstozkan # Grimbly
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
 
 - type: entity
   id: MobRatKingBuff
@@ -221,7 +222,13 @@
     - map: [ "enum.DamageStateVisualLayers.BaseUnshaded"]
       state: eyes
       shader: unshaded
-
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
   - type: SpriteMovement
     movementLayers:
       movement:
