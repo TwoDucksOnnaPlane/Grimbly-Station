@@ -1,5 +1,3 @@
-Name: Grimbly Station
-Order: 0
 Entries:
 - author: sleepyyapril
   changes:
@@ -8,3 +6,10 @@ Entries:
   id: 1
   time: '2024-01-07T03:23:53.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23654
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added Herobrine.
+  id: 2
+  time: '2024-11-30T20:25:19.0000000+00:00'
+  url: https://github.com/Grimbly-Station/Grimbly-Station/pull/137
