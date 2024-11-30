@@ -48,10 +48,6 @@
     templateId: ratking
   - type: InventorySlots
   - type: Strippable
-  - type: UserInterface
-    interfaces:
-      enum.StrippingUiKey.Key:
-        type: StrippableBoundUserInterface
   - type: Puller
     needsHands: false
   - type: IdExaminable # End grimbly ratking changes
@@ -231,6 +227,8 @@
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
   - type: SpriteMovement
     movementLayers:
       movement:
